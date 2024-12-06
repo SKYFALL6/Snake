@@ -226,12 +226,6 @@ public class JuegoCulebrita extends JPanel implements ActionListener, KeyListene
         }
     }
 
-    @Override
-    public void keyReleased(KeyEvent e) {}
-
-    @Override
-    public void keyTyped(KeyEvent e) {}
-
     public static void main(String[] args) {
         JFrame ventana = new JFrame("Culebrita con Menú Llamativo");
         JuegoCulebrita juego = new JuegoCulebrita();
